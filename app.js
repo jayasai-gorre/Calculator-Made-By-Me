@@ -48,8 +48,8 @@ function reset() {
 }
 
 function deleteLast() {
-    str = str.slice(0, -1);
-    input.value = str;
+    input.value = input.value.slice(0, -1);
+    str = input.value;
 }
 
 one.addEventListener("click", handleButtonClick);
