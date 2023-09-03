@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "poppins" , sans-serif;
+    text-align: center;
+}
+
+.main-div {
+    background-color: #053B50;
+    height: 320px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 8px;
+    padding-top: 8px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+input[type = "text"] {
+    height: 30px;
+    border-radius: 4px;
+    outline-color: #053B50;
+    font-size: 18px;
+}
+
+.btn {
+    width: 50px;
+    height: 40px;
+    box-shadow: 1px 0px 6px white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 8px auto;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+#equalTo {
+    width: 120px;
+}
